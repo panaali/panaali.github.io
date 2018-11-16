@@ -26,7 +26,6 @@ github_username:  panaali
 markdown: kramdown
 # theme: jekyll-theme-so-simple
 remote_theme: "mmistakes/so-simple-theme"
-mathjax: true
 plugins:
   - jekyll-feed
 
@@ -41,3 +40,12 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+
+# so-simple-theme configs:
+mathjax: true
+disqus:
+  shortname: panaali
+google_analytics: UA-129351331-1
+read_time: true
+words_per_minute: 200
