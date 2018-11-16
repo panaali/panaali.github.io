@@ -258,7 +258,6 @@ DEPENDENCIES
   github-pages
   jekyll-feed (~> 0.9.2)
   jekyll-theme-so-simple
-  tzinfo-data
 
 BUNDLED WITH
    1.17.1
