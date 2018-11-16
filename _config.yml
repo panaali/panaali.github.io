@@ -45,7 +45,7 @@ plugins:
 # so-simple-theme configs:
 mathjax: true
 disqus:
-  shortname: panaali
+  shortname: blog-apanahi-com
 google_analytics: UA-129351331-1
 read_time: true
 words_per_minute: 200
