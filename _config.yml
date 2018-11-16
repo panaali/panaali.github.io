@@ -26,6 +26,7 @@ github_username:  panaali
 markdown: kramdown
 # theme: jekyll-theme-so-simple
 remote_theme: "mmistakes/so-simple-theme"
+mathjax: true
 plugins:
   - jekyll-feed
 
