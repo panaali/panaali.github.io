@@ -2,6 +2,7 @@
 published: true
 mathjax: true
 title: Testing MathJax
+date: '2018-11-16 13:43:53 -0500'
 ---
 Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
 This is awesome! Let's see.
