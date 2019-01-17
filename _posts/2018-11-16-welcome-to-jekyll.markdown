@@ -1,25 +1,11 @@
 ---
 layout: post
-title:  "Welcome to Jekyll! Test"
-date:   2018-11-16 12:43:53 -0500
+title: Welcome to Jekyll! Test
+date: '2018-11-16 12:43:53 -0500'
 categories: jekyll update
+published: true
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+Recently, I started using Google Colab and wanted to create nice modular notebooks. I found [ipynb](https://github.com/ipython/ipynb "ipynb") a library to import a notebook in another notebook. The first issue was that the ipynb was not accepting Google Colab notebooks as a valid jupter notebook. I [fixed](https://github.com/panaali/ipynb) that issue but it was not enough. The next problem was that the if I changed the code of other notebooks I had to restart my kernel to reload the imported notebook. I tried both `importlib.reload` and `%autoreload`. It seems that they should solve the problem but unfortnatly it took ~20 seconds for Google Colab to get load the new saved notebook. This delay was not acceptable for my work since I'm developing my notebooks and there are a lot of changes every few seconds that I want to test and get the result, hence I decided to put aside the idea of writing modular code in Google Colab. Besides this, the [ipynb](https://github.com/ipython/ipynb "ipynb") has [can not deal](https://github.com/ipython/ipynb/issues/6) with magic functions like `%ls` or bash functions `!pip` and the `ipynb` development seems not an active.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+Want to know more about why notebooks are not good (yet)? Watch this video: [!["I don't like notebooks" by Joel Grus](http://i3.ytimg.com/vi/7jiPeIFXb6U/hqdefault.jpg)](https://www.youtube.com/watch?v=7jiPeIFXb6U)
+[Slides](https://docs.google.com/presentation/d/1n2RlMdmv1p25Xy5thJUhkKGvjtV-dkAIsUXP-AL4ffI/edit)
