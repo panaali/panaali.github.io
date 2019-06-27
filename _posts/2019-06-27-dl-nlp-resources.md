@@ -1,5 +1,6 @@
 ---
 published: true
+title: Resources for Learning Deep Learning in NLP
 layout: post
 date: '2019-06-27 13:06:00 -0500'
 categories: deep-learning
